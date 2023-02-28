@@ -1,0 +1,31 @@
+body {
+    background-color: #F0F4EF;
+    color: #0D1821;
+    text-align: center;
+}
+
+button {
+    background-color: #344966;
+    color: #F0F4EF;
+    font-family: 'Lora', serif;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color: #BFCC94;
+    
+    
+}
+
+h1 {
+   font-family: 'Poppins', sans-serif; 
+}
+
+h2 {
+ font-family: 'Lora', serif;
+}
