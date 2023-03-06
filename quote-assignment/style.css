@@ -19,8 +19,8 @@ div {
     font-size:44px;
     font-family:'Rubik', sans-serif;
     color:#5B4B49;
-    border: 3px #7DAF9C;
-    padding: 10px 10px 10px 10px;
+    border: 3px solid white;
+    padding: 5px 5px 10px 10px;
     margin: auto;
 }
 
