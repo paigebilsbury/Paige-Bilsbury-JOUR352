@@ -1,3 +1,20 @@
-.container-fluid {
+@media {
+
+    
+.h1 {
+    font size: 50px;
+    margin: 0px 0px 50px 0px;
+    }    
+    
+    
+#header{
     background-color:#DBD3D8;
+}
+
+#headshot {
+    width:300px;
+    border-radius: 500px;
+}
+    
+    
 }
