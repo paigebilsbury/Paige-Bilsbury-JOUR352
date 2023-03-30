@@ -1,20 +1,121 @@
 @media {
 
     
-.h1 {
-    font size: 50px;
-    margin: 0px 0px 50px 0px;
+    
+  body {
+    font-family: 'Lora', serif;
+    color: #223843;
+      
+    }
+    
+    
+h1 {
+    font-size: 60px;
+    margin: 20px 0px 10px 0px;
     }    
+    h2 {
+    font-size: 35px;
+    margin: 0px 0px 20px 0px;
+    }
+    
+   
     
     
 #header{
     background-color:#DBD3D8;
-}
+    text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+    }
 
+    
+button {
+    border: none;
+    background-color: #D77A61;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 30px 10px 30px;
+    
+    }
+    
+button a {
+        text-decoration: none;
+        color: white;
+    }    
+    
+    button a:hover {
+        color: #D8B4A0;
+    }    
+    
+    button a:visited {
+        color: rebeccapurple;
+    }
+    
+
+    
+    
 #headshot {
     width:300px;
-    border-radius: 500px;
-}
+    padding: 0px;
+    margin: 20px 0px 20px 60px;
+    border-radius: 5px;
+    }
+    
+
+     
+    
+    
+/* Navigation */
+.nav a:hover {
+    color:#D8B4A0;
+    }
+    
+.nav a:visited {
+    color: #223843;
+    }
+    
+ .nav a {
+    color: #D77A61;
+
+    } 
+    
+
+    
+    
+    
+/* Body Content of Page styling */  
+    #experience {
+        text-transform: uppercase;
+        font-weight: bold;
+       padding: 20px 10px 20px 10px;
+    }    
+    
+    #education {
+        text-transform: uppercase;
+        font-weight: bold;
+       padding: 20px 10px 20px 10px;
+    }
+    
+    #skills {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 20px 10px 20px 10px;
+        
+    }
+    
+    h4 {
+       text-transform: uppercase;
+    }
+    
+    h5 {
+        font-style: italic;
+    }
+    
+    #footer {
+        padding: 20px 5px 20px 5px;
+    }
+    
     
     
 }
