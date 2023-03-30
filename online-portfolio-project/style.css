@@ -87,25 +87,33 @@ button a {
 /* Body Content of Page styling */  
     #experience {
         text-transform: uppercase;
+        text-decoration: underline;
         font-weight: bold;
-       padding: 20px 10px 20px 10px;
+        padding: 20px 10px 20px 10px;
+        margin: 5px 5px 5px 5px;
+     
     }    
     
     #education {
         text-transform: uppercase;
+        text-decoration: underline;
         font-weight: bold;
-       padding: 20px 10px 20px 10px;
+        padding: 20px 10px 20px 10px;
+        margin: 5px 5px 5px 5px;
     }
     
     #skills {
         text-transform: uppercase;
+        text-decoration: underline;
         font-weight: bold;
         padding: 20px 10px 20px 10px;
+        margin: 5px 5px 5px 5px;
         
     }
     
     h4 {
        text-transform: uppercase;
+        color: #D77A61;
     }
     
     h5 {
