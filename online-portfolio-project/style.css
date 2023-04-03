@@ -1,26 +1,30 @@
+@media {
+    /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+
+
 body {
     font-family: 'Lora', serif;
-    color: #223843;
-      
-    }
+    color: #223843; 
+     }
     
     
 h1 {
     font-size: 60px;
     margin: 20px 0px 10px 0px;
-    }    
-    h2 {
+    }  
+
+ h2 {
     font-size: 35px;
     margin: 0px 0px 20px 0px;
     }
     
-   
-    
+
     
 #header{
     background-color:#DBD3D8;
     text-transform: uppercase;
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     }
 
     
@@ -32,23 +36,22 @@ button {
     border-radius: 10px;
     margin: 5px;
     padding: 10px 30px 10px 30px;
-    
     }
     
 button a {
         text-decoration: none;
         color: white;
-    }    
+        }    
     
     button a:hover {
         color: #D8B4A0;
-    }    
+        }    
     
     button a:visited {
         color: rebeccapurple;
-    }
+     }
     
-
+    }
     
     
 #headshot {
@@ -58,8 +61,6 @@ button a {
     border-radius: 5px;
     }
     
-
-     
     
     
 /* Navigation */
@@ -79,7 +80,6 @@ button a {
 
     
     
-    
 /* Body Content of Page styling */  
     #experience {
         text-transform: uppercase;
@@ -87,7 +87,6 @@ button a {
         font-weight: bold;
         padding: 20px 10px 20px 10px;
         margin: 5px 5px 5px 5px;
-     
     }    
     
     #education {
@@ -103,8 +102,7 @@ button a {
         text-decoration: underline;
         font-weight: bold;
         padding: 20px 10px 20px 10px;
-        margin: 5px 5px 5px 5px;
-        
+        margin: 5px 5px 5px 5px;   
     }
     
     h4 {
@@ -120,5 +118,19 @@ button a {
         padding: 20px 5px 20px 5px;
     }
     
+
+
+    @media (min-width: 576px) {
+        /*Tablet-only styles here*/
+        /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    }
     
+    @media (min-width: 992px) {
+        /*Desktop-only styles here*/
+        /*This media query targets any screen that is at least 992px wide*/
+    }
     
+    @media (min-width: 1200px) {
+        /*Large-Desktop-only styles here*/
+        /*This media query targets any screen that is at least 1200px wide*/
+    }
