@@ -44,11 +44,11 @@ button a {
         color: white;
         }    
     
-    button a:hover {
+button a:hover {
         color: #D8B4A0;
         }    
     
-    button a:visited {
+button a:visited {
         color: rebeccapurple;
      }
     
@@ -75,7 +75,7 @@ button a {
     }
     
 .nav a:visited {
-    color: #223843;
+    color: rebeccapurple;
     }
     
  .nav a {
@@ -193,7 +193,5 @@ button a {
             font-size: 29px;
         }
         
-        
-        
-        
+          
     }
