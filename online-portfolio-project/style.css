@@ -10,13 +10,13 @@ body {
     
     
 h1 {
-    font-size: 60px;
-    margin: 20px 0px 10px 0px;
+    font-size: 40px;
+    margin: 20px 0px 10px 10px;
     }  
 
  h2 {
-    font-size: 35px;
-    margin: 0px 0px 20px 0px;
+    font-size: 30px;
+    margin: 0px 0px 20px 10px;
     }
     
 
@@ -25,6 +25,7 @@ h1 {
     background-color:#DBD3D8;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
+  
     }
 
     
@@ -34,8 +35,8 @@ button {
     color: white;
     padding: 10px;
     border-radius: 10px;
-    margin: 5px;
-    padding: 10px 30px 10px 30px;
+    margin: 10px 10px 20px 5px;
+    padding: 10px 10px 10px 10px;
     }
     
 button a {
@@ -57,13 +58,18 @@ button a {
 #headshot {
     width:300px;
     padding: 0px;
-    margin: 20px 0px 20px 60px;
+    margin: 20px 20px 20px 20px;
     border-radius: 5px;
     }
     
     
     
 /* Navigation */
+
+.nav {
+    font-size: 20px;
+    }    
+    
 .nav a:hover {
     color:#D8B4A0;
     }
@@ -123,14 +129,71 @@ button a {
     @media (min-width: 576px) {
         /*Tablet-only styles here*/
         /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+        
+        #headshot {
+            width: 170px; 
+            }
+        h1 {
+            font-size: 35px;
+        }
+        h2{ 
+            font-size: 25px;
+        }
+        
+        
     }
     
     @media (min-width: 992px) {
         /*Desktop-only styles here*/
         /*This media query targets any screen that is at least 992px wide*/
+        
+        #headshot {
+            width: 300px;
+        }    
+        
+        h1 {
+            font-size: 65px;
+        }
+        
+        h2 {
+            font-size: 50px;
+        }
+        
+        button {
+            font-size: 22px;
+        }
+        
+        .nav{
+            font-size: 18px;
+            
+        }
+        
     }
     
     @media (min-width: 1200px) {
         /*Large-Desktop-only styles here*/
         /*This media query targets any screen that is at least 1200px wide*/
+        
+        #headshot {
+            width:390px;
+        }    
+        
+        h1 {
+            font-size: 75px;
+        }
+        h2 {
+            font-size: 60px;
+        }
+        
+        button {
+            font-size: 28px;
+        }
+        
+        .nav {
+            font-size: 29px;
+        }
+        
+        
+        
+        
     }
