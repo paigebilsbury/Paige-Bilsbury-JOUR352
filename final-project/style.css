@@ -1,0 +1,22 @@
+@media {
+  
+    .leadphoto{
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width:576px){
+    
+}
+
+/*might only use the first two media queries*/
+
+@media (min-width:992px){
+    
+}
+
+@media (min-width:1200px){
+    
+}
