@@ -3,9 +3,34 @@
     .leadphoto{
         width: 100%;
     }
-
     
+    #header {
+        font-family: 'PT Serif', serif;
+        padding-top: 5px;
+    }
+    
+    h1, h3 {
+        color: #3C6E71;
+        font-family: 'PT Serif', serif;
+    }
+    
+    #leadphoto {
+        position: relative;
+        text-align: right;
+        color: white;
+    }
+    
+    .top-left {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    
+    .bodytext {
+        padding: 5px; 500px; 5px; 500px;
+    }
 }
+
 
 @media (min-width:576px){
     
