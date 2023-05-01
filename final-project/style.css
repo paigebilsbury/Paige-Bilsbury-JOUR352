@@ -26,13 +26,12 @@
     #header {
         padding-top: 5px;
         font-weight: bold;
-        background-color: #D9D9D9;
         
     }
 
     #subheading {
-        color: #3C6E71;
-        background-color: #D9D9D9;
+        color: #284B63;
+    
     }
     
     h1 {
@@ -53,19 +52,25 @@
     
    #pullquote {
         color: white;
-        border: 1px solid #3C6E71;
+        border: 1px solid #284B63;
         border-radius: 25px;
-        background-color: #3C6E71;
+        background-color: #284B63;
         padding: 70px;
         text-align: right;
+        margin: 10px 10px 10px 10px;
     }
     
     #pullquote h3 {
         text-align: left;
     }
 
+    h4 {
+        color: #284B63;
+    }
     
-    
+    .row {
+        padding: 10px 10px 10px 10px;
+    }
     
     
 }
