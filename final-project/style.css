@@ -11,10 +11,6 @@
         color: white;
     }
     
-    #childsitting {
-          opacity: 0.75;
-    }
-    
     .overlay {
         position: absolute;
         text-align: center;
@@ -47,7 +43,7 @@
     
 /*Body of page*/
     .bodytext {
-        padding: 10px; 500px; 5px; 500px;
+        padding: 10px; 700px; 5px; 700px;
     }
     
    #pullquote {
