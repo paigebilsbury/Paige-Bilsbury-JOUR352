@@ -7,18 +7,12 @@
 /* headings */
     .leadphoto{
         width: 100%;
-        position: relative;
-        color: white;
+        background-image: url(childsitting.jpeg);
+        background-position:center;
+        background-size: cover;
     }
     
-    .overlay {
-        position: absolute;
-        text-align: center;
-        padding: 20% 10% 20% 10%;
-        color: white;
-        font-size: 40px;
-    }
-    
+
     #header {
         padding-top: 5px;
         font-weight: bold;
@@ -32,6 +26,8 @@
     
     h1 {
         font-size: 54px;
+        color: white;
+        padding: 600px 0px 10px 0px;
     }
     
     
@@ -43,7 +39,7 @@
     
 /*Body of page*/
     .bodytext {
-        padding: 10px; 700px; 5px; 700px;
+        padding: 10px 200px 5px 200px;
     }
     
    #pullquote {
@@ -64,10 +60,7 @@
         color: #284B63;
     }
     
-    .row {
-        padding: 10px 10px 10px 10px;
-    }
-    
+
 
 }
 
