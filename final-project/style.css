@@ -5,7 +5,7 @@
         color: #284B63;
     }
   
-/* headings */
+/* Top of page */
     .leadphoto{
         width: 100%;
         background-image: url(childsitting.jpeg);
@@ -23,6 +23,8 @@
     #subheading {
         color: #284B63;
         width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
       
     
     }
@@ -56,16 +58,27 @@
         border: 1px solid #284B63;
         border-radius: 25px;
         background-color: #284B63;
-        padding: 70px;
-        margin: 10px 10px 10px 10px;
+        padding: 35px;
+        width: 100%;
+        text-align: center;
     }
     
     
-    .quotemark {
+    .quotemarkopen {
+        text-align: left;
         font-size:120px;
-        float: left;
         line-height: 10px;
         padding: 40px 0px 0px 0px;
+        font-family: 'Passion One', cursive;
+        
+    }
+    
+    .quotemarkclose {
+        float: right;
+        font-size:120px;
+        line-height: 10px;
+        padding: 40px 0px 0px 0px;
+        font-family: 'Passion One', cursive;
         
     }
     
@@ -74,7 +87,7 @@
     }
     
     .attribution {
-        padding: 0px 0px 0px 40px;
+        padding: 0px 0px 0px 0px;
     }
 
 }
@@ -89,19 +102,37 @@
     #subheading {
         width: 50%;
     }
+    
+    .pullquote {
+        width: 50%;
+    }
 }
 
-/*might only use the first two media queries*/
 
 @media (min-width:992px){
     .bodytext {
         width: 80%
     }
     
+     #subheading {
+        width: 80%;
+    }
+    
+    .pullquote {
+        width: 80%;
+    }
 }
 
 @media (min-width:1200px){
     .bodytext {
         width: 50%
+    }
+    
+     #subheading {
+        width: 50%;
+    }
+    
+    .pullquote {
+        width: 50%;
     }
 }
