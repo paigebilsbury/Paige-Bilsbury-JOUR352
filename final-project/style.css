@@ -91,15 +91,15 @@
 @media (min-width:576px){
     
     .bodytext {
-        width: 50%;
+        width: 70%;
     }
     
     #subheading {
-        width: 50%;
+        width: 70%
     }
     
     .pullquote {
-        width: 50%;
+        width: 70%;
     }
 }
 
