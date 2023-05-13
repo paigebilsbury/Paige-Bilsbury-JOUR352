@@ -9,7 +9,7 @@
     .leadphoto{
         width: 100%;
         background-image: url(childsitting.jpeg);
-        background-position:center;
+        background-position: 25% 75%;
         background-size: cover;
     }
     
