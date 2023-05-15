@@ -8,6 +8,7 @@
 /* Top of page */
     .leadphoto{
         width: 100%;
+        height: 100%;
         background-image: url(childsitting.jpeg);
         background-position: 25% 75%;
         background-size: cover;
